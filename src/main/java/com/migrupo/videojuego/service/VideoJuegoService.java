@@ -14,6 +14,7 @@ public class VideoJuegoService {
         this.videojuegoRepository = videojuegoRepository;
     }
 
+    //Trae listado de videojuegos
     public List<Videojuego> buscarDestacados() {
         return videojuegoRepository.findAll();
     }

@@ -18,7 +18,7 @@ public class ListadoController {
     }
     
     
-    
+    //Trae listado de videojuegos
     @RequestMapping("/")
     public String listarVideojuegos(Model model){
         List<Videojuego> destacados = videojuegoService.buscarDestacados();
