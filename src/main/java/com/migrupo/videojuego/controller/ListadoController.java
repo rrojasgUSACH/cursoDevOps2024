@@ -23,7 +23,7 @@ public class ListadoController {
     public String listarVideojuegos(Model model){
         List<Videojuego> destacados = videojuegoService.buscarDestacados();
         model.addAttribute("videojuegos", destacados);
-        System.out.println(destacados);
+        System.out.println("destacados " + destacados);
         return "listado";
     }
 }
