@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 @Entity
 public class Videojuego {
 
-    //Modelo un videojuego de la base de datos
+    //Modela un videojuego de la base de datos
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
